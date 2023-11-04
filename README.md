@@ -11,14 +11,17 @@ This has been tested in Ubuntu or Windows WSL
 sudo apt-get install python3-pip 
 sudo pip3 install virtualenv
 ````
+
 <br>
+
 ````
 virtualenv venv
 source venv/bin/activate
 ````
+
 ## Install the necessary packages
 ````
-pip install -r requirements.txt <
+pip install -r requirements.txt 
 ````
 
 #Embedding Documents for the Vector Database
