@@ -17,9 +17,9 @@ from langchain.vectorstores import Chroma
 #sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 documents = []
-for file in os.listdir('IRISHDOCUMENTS/'):
+for file in os.listdir('DOCS/'):
     if file.endswith('.pdf'):
-        pdf_path = 'IRISHDOCUMENTS/' + file
+        pdf_path = 'DOCS/' + file
         loader = PyPDFLoader(pdf_path)
         documents.extend(loader.load())
     elif file.endswith('.docx') or file.endswith('.doc'):
