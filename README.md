@@ -24,12 +24,15 @@ source venv/bin/activate
 pip install -r requirements.txt 
 ````
 
-#Embedding Documents for the Vector Database
+# Embedding Documents for the Vector Database
 If you have multiple documents that you would like to  embed in a vector database and chat with it <br>
 YOu have to create a vectordatabase first <br>
 We are using an opensource chroma database <br>
 
 ## Working with PDF Documents
-In your 
+In your virtual environment, Run
+````
+python embed_pdf.py
+````
 
 ## Working with CSV or Excel
