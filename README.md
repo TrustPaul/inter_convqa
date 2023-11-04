@@ -30,6 +30,7 @@ YOu have to create a vectordatabase first <br>
 We are using an opensource chroma database <br>
 
 ## Working with PDF Documents
+Store all your pdf documents in your a folder called DOC in the same directory as this code and at the same level as embed_pdf.py
 In your virtual environment, Run
 ````
 python embed_pdf.py
