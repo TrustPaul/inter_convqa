@@ -52,3 +52,15 @@ python embed_pdf.py
 ````
 
 ## Working with CSV or Excel
+Load in your data in the file embed_csv.py
+Adjust the file name or column name accordingly
+And run
+````
+python embed_csv.py
+````
+# Running the Program
+Once everything is set, You can run the program using the command
+````
+streamlit run Home.py
+````
+Once 
