@@ -11,9 +11,10 @@ YOUR_TOKEN = 'Replace with your huggingface token'
 - chatbot_with_internet_access.py
 - utils.py
 
-## OpenAI
-Replace this statement with your OpenAI api in tool_agumented_with_chat_gpt.py <br>
+## OpenAI API
+Replace this statement with your OpenAI api in <br>
 OPENAI_API_KEY = "Replace with your OpenAI API"
+- tool_agumented_with_chat_gpt.py
 
 
 
