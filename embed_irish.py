@@ -2,28 +2,9 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import pandas as pd
 from pathlib import Path
-from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.document_loaders import Docx2txtLoader
-from langchain.document_loaders import TextLoader
-from langchain.text_splitter import TokenTextSplitter
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-import pandas as pd
-from pathlib import Path
-from langchain.document_loaders.csv_loader import CSVLoader
-from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.document_loaders import Docx2txtLoader
-from langchain.document_loaders import TextLoader
-from langchain.text_splitter import TokenTextSplitter
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
-from langchain.document_loaders import PyPDFLoader
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.document_loaders import DataFrameLoader
 #__import__('pysqlite3')
 #import sys
