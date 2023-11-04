@@ -1,6 +1,6 @@
 # Clone the Repository from Github
 ````
-git clone 
+git clone https://github.com/TrustPaul/inter_convqa.git
 ````
 # Configuration
 You need Huggingface API for Opensource Language models and OpenAI API for Runnning Huggingface Models <br>
