@@ -2,6 +2,20 @@
 You need Huggingface API for Opensource Language models and OpenAI API for Runnning Huggingface Models <br>
 We are using Huggiingface Pro Subscription can be obtained from [Huggingface](https://huggingface.co/blog/inference-pro) <br>
 Open API keys can be obtained from OpenAI website [OpenAI](https://openai.com/) <br>
+## Huggingface API
+REplace this statement at the top of each of the files listed with your Huggingface API
+YOUR_TOKEN = 'Replace with your huggingface token'
+- Basic_chatbot.py
+- chat_with_vector_database.py
+- chat_with_your_documents.py
+- chatbot_with_internet_access.py
+- utils.py
+
+## OpenAI
+Replace this statement with your OpenAI api in tool_agumented_with_chat_gpt.py <br>
+OPENAI_API_KEY = "Replace with your OpenAI API"
+
+
 
 # Installations
 ## Create a virtual environment
