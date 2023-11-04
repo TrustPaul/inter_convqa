@@ -63,4 +63,3 @@ Once everything is set, You can run the program using the command
 ````
 streamlit run Home.py
 ````
-Once 
