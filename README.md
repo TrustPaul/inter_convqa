@@ -1,3 +1,8 @@
+# Augmenting Large Language Models for Enhanced Interaction with Government Data Repositories
+## Abstract
+In the modern digital landscape, government agencies globally are shifting services online to enhance transparency and public engagement. However, the vast digital content can be daunting for citizens seeking information. Addressing this, our research evaluates the efficacy of Large Language Models (LLMs), like ChatGPT, in the public sector, highlighting their potential in extracting relevant insights and optimizing information navigation. Our approach integrates non-parametric data from various sources, including the Irish government portal and the Citizens Information website, using retrieval-augmented models. Empirical evaluations show that the llama2 model, with $13$ billion parameters, achieves up to a $90\%$ enhancement when complemented with retrieval augmentation, with other models also showing substantial improvements. These results emphasize the transformative potential of retrieval-augmented frameworks in keeping LLMs updated with the evolving public information domain.
+
+
 # Clone the Repository from Github
 ````
 git clone https://github.com/TrustPaul/inter_convqa.git
@@ -69,3 +74,6 @@ Once everything is set, You can run the program using the command
 ````
 streamlit run Home.py
 ````
+# Authors
+Paul Trust <br>
+Rosane Minghim
