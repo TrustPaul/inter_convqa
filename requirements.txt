@@ -8,4 +8,4 @@ sentence-transformers==2.2.2
 docarray==0.32.1
 streamlit-survey
 huggingface_hub==0.17.3
-chromadb
+chromadb==0.3.29
