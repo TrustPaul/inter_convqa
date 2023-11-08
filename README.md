@@ -10,7 +10,8 @@ Open API keys can be obtained from OpenAI website [OpenAI](https://openai.com/) 
 REplace this statement at the top of each of the files listed with your Huggingface API
 YOUR_TOKEN = 'Replace with your huggingface token'
 - Basic_chatbot.py
-- chat_with_vector_database.py
+- chat_with_irish_gov_ie_citzen_documents.py
+- chat_with_irish_hse_documents.py
 - chat_with_your_documents.py
 - chatbot_with_internet_access.py
 - utils.py
@@ -48,11 +49,20 @@ If you have multiple documents that you would like to  embed in a vector databas
 YOu have to create a vectordatabase first <br>
 We are using an opensource chroma database <br>
 
-## Working with PDF Documents
-Store all your pdf documents in your a folder called DOC in the same directory as this code and at the same level as embed_pdf.py
+## Working with gov.ie and citzen information Documents
+You can replace your documents either in the folder IRISHDOCUMENTS or HSE <br>
+We put a sample of few demonstation for proof of concept
 In your virtual environment, Run
 ````
-python embed_pdf.py
+python embed_gov_citzen.py
+````
+
+## Working with hse Documents
+You can replace your documents either in the folder IRISHDOCUMENTS or HSE <br>
+We put a sample of few demonstation for proof of concept
+In your virtual environment, Run
+````
+python embed_hse.py
 ````
 
 ## Working with CSV or Excel
