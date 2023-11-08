@@ -1,17 +1,18 @@
 import langchain
+import os
 import utils
 import streamlit as st
 from langchain.memory import ConversationBufferMemory
 import time
 import streamlit_survey as ss
-import os
 
-## Put the Huggingface Token Here
 YOUR_TOKEN = 'Replace with your huggingface token'
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = YOUR_TOKEN
 HUGGINGFACEHUB_API_TOKEN = YOUR_TOKEN
 
 repo_id = "HuggingFaceH4/zephyr-7b-beta" 
+
+
 st.set_page_config(page_title="ChatPDF", page_icon="📄")
 st.header('Retrieval Augumented Generation on Irish documents')
 st.write('The model can answer questions on documents posted on gov.ie website between 27/06/2023 to 27/08/2023')
